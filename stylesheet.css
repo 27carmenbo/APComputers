@@ -1,0 +1,70 @@
+.heading {
+  padding: 60px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+}
+
+.section {
+/*chatGPT helped make background and find colors*/
+  background: linear-gradient(to bottom, #a1f0e8, #61dafb);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.book {
+/*#chatGPT helped make background and find colors*/
+  background: linear-gradient(to bottom, #61dafb, #ff6f61);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.contact {
+  background: #A1E3D8;
+  padding: 20px;
+  margin-top: 30px;
+
+/*#chat gpt created the code below this comment which adjusts
+#the placement of the boxes/placeholders where the user is 
+#meant to put their name, email and then in a textarea, 
+#their message to me. The fonts in the placeholders are 
+#also changed as well as the sizing of everything along with 
+#the borders of the boxes.*/
+
+  input, textarea {
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+input:focus, textarea:focus {
+    border-color: #61dafb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(97, 218, 251, 0.7);
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+}
+
+}
